@@ -1,0 +1,39 @@
+# gifw.c
+
+## what's this wizardry?
+
+this little c program takes your favorite gif and plasters it all over your desktop. why? because i can..
+
+## features (or "why you need this in your life")
+
+- turns your desktop into a rave party 🕺💃
+- impresses your cat (results may vary)
+- perfect for hypnotizing your coworkers
+- makes you feel like you're living in the future (the future is animated, folks)
+
+## how to make the magic happen
+
+1. clone this repo 
+2. compile the code
+   ```
+   gcc -o gifw gifw.c -lX11 -lm -lpthread
+   ```
+3. run it like you stole it
+   ```
+   ./gifw path/to/your/awesome.gif [stretch|center|tile]
+   ```
+
+## usage (for the "i skipped the manual" crowd)
+
+```
+./gifw <animated-gif-file> [stretch|center|tile]
+```
+
+- `stretch`: for when you want your gif to go to the gym
+- `center`: for the indecisive middle-child gif
+- `tile`: for when one gif just isn't enough
+
+## requirements
+
+- a computer
+- X11
