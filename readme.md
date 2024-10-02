@@ -23,7 +23,7 @@ this little c program takes your favorite gif and plasters it all over your desk
    ./gifw path/to/your/awesome.gif [stretch|center|tile]
    ```
 
-## usage (for the "i skipped the manual" crowd)
+## usage
 
 ```
 ./gifw <animated-gif-file> [stretch|center|tile]
