@@ -23,6 +23,20 @@ this little c program takes your favorite gif and plasters it all over your desk
    ./gifw path/to/your/awesome.gif [stretch|center|tile]
    ```
 
+ or run it with the makefile
+
+ cd into the directory
+ make
+ sudo make install
+
+set this in your xinitrc file to run on startup.
+
+ ```
+ .xinitrc
+
+ gifw /home/user/wallpapers/avd.gif stretch &
+```
+
 ## usage
 
 ```
