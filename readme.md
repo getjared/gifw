@@ -13,31 +13,35 @@ this little c program takes your favorite gif and plasters it all over your desk
 - perfect for hypnotizing your coworkers
 - makes you feel like you're living in the future (the future is animated, folks)
 
-## how to make the magic happen
+## issues. .
+this was entirely made to work for x11, not wayland (though i do intend on adding xwayland later on)
+the best way to actually use this is on a new setup, anything that changes the root window is going to interfere
+with this little tool
 
+## make it. .
+```   
 1. clone this repo 
 2. compile the code
-   ```
+
+   git clone https://github.com/getjared/gifw.git
+   cd gifw
    gcc -o gifw gifw.c -lX11 -lm -lpthread
-   ```
+   
 3. run it like you stole it
-   ```
+   
    ./gifw path/to/your/awesome.gif [stretch|center|tile]
-   ```
 
- or run it with the makefile
+if you want to install it in order to run on start up
+clone the repo
+cd gifw
+make
+sudo make install
 
- cd into the directory
- ```make```
- ```sudo make install```
-
-set this in your xinitrc file to run on startup.
-
- ```
- .xinitrc
-
- gifw /home/user/wallpapers/avd.gif stretch &
+this will install to the /usr/local/bin/gifw
+then just add it to your .xinitrc file
+gifw /home/user/wallpapers/avd.gif stretch &   
 ```
+
 
 ## usage
 
