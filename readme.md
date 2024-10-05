@@ -4,7 +4,7 @@
 
 this little c program takes your favorite gif and plasters it all over your desktop. why? because i can..
 
-<a href="https://i.imgur.com/r3g38vlb.gif"><img src="https://i.imgur.com/r3g38vlb.gif" width="100%" align="center"></a>
+
 
 ## features (or "why you need this in your life")
 
