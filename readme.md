@@ -4,7 +4,7 @@
 
 this little c program takes your favorite gif and plasters it all over your desktop. why? because i can..
 
-
+![](https://github.com/getjared/gifw/gifw-desk.gif)
 
 ## features (or "why you need this in your life")
 
