@@ -6,17 +6,11 @@ this little c program takes your favorite gif and plasters it all over your desk
 
 ![](https://github.com/getjared/gifw/blob/main/gifw-desk.gif)
 
-## features (or "why you need this in your life")
-
-- turns your desktop into a rave party 🕺💃
-- impresses your cat (results may vary)
-- perfect for hypnotizing your coworkers
-- makes you feel like you're living in the future (the future is animated, folks)
 
 ## issues. .
 this was entirely made to work for x11, not wayland (though i do intend on adding xwayland later on)
 the best way to actually use this is on a new setup, anything that changes the root window is going to interfere
-with this little tool
+with this little tool (consider it not finished)
 
 ## make it. .
 ```   
