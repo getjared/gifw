@@ -43,9 +43,9 @@ gifw /home/user/wallpapers/avd.gif stretch &
 ./gifw <animated-gif-file> [stretch|center|tile]
 ```
 
-- `stretch`: for when you want your gif to go to the gym
-- `center`: for the indecisive middle-child gif
-- `tile`: for when one gif just isn't enough
+- `stretch`
+- `center`
+- `tile`
 
 ## requirements
 
