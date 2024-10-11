@@ -30,4 +30,3 @@ sudo make install
 
 then just add it to your .xinitrc file
 gifw /home/user/wallpapers/avd.gif stretch &   
-```
