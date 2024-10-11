@@ -1,0 +1,33 @@
+
+                              gifw.c
+                 <run full animated gifs as a wallpaper>
+
+
+
+issues:
+• does not work on wayland
+• probably not great with comps like picom
+
+
+see ./gifw-desk.gif to see it in action
+
+§ dependencies
+• c compiler (gcc or clang)
+• make
+• x11 libraries and headers (xlib)
+
+§ installation
+git clone https://github.com/getjared/gifw.git
+cd gifw
+make
+sudo make install
+
+
+   
+§ run it like you stole it
+   
+   ./gifw path/to/your/awesome.gif [stretch|center|tile]
+
+then just add it to your .xinitrc file
+gifw /home/user/wallpapers/avd.gif stretch &   
+```
