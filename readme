@@ -12,11 +12,13 @@ issues:
 see ./gifw-desk.gif to see it in action
 
 § dependencies
+
 • c compiler (gcc or clang)
 • make
 • x11 libraries and headers (xlib)
 
 § installation
+
 git clone https://github.com/getjared/gifw.git
 cd gifw
 make
